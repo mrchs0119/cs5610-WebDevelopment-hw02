@@ -1,0 +1,43 @@
+.calculator {
+    width: 326px;
+    height: 380px;
+    margin: 250px auto;
+    background-color: black;
+    border-radius: 5px;
+}
+#result {
+    position: relative;
+    width: 280px;
+    height: 80px;
+    background-color: black;
+    border-radius: 5px;
+    text-align:right;
+}
+
+#output{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.calculator .c_row {
+    margin: 0 23px;
+}
+button {
+    cursor: pointer;
+    width: 60px;
+    height: 45px;
+    margin: 20px 2px 0;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: grey;
+}
+button::selection {
+    color: #fff;
+}
+button:active {
+    background-color: #cccccc;
+}
+.operator {
+    background-color: orange;
+}
